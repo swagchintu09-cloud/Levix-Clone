@@ -2,7 +2,7 @@ const { MessageEmbed, MessageActionRow, MessageButton, MessageSelectMenu } = req
 
 module.exports = {
     name: 'help',
-    aliases: ['h'],
+    aliases: ['h','madat'],
     description: `Show's the help command.`,
     category: 'info',
     premium: false,
@@ -150,35 +150,35 @@ module.exports = {
             })
             .setThumbnail(message.author.displayAvatarURL({ dynamic: true }))
             .setDescription(
-                `Hello ! I'm **${client.user.username}**, your all-in-one server management and security bot with powerful features.\n\n \<:reddot:1317860462028914700> **Prefix for this server** \`${prefix}\`\n<:reddot:1317860462028914700>  **Total Commands: **\`${client.commands.size}\`\n<:reddot:1317860462028914700>  **Type ${prefix}dangermode enable  to enhance security!**`)
+                `Hello ! I'm **${client.user.username}**, your all-in-one server management and security bot with powerful features.\n\n \<:dot:1433712610758627371> **Prefix for this server** \`${prefix}\`\n<:dot:1433712610758627371> **Total Commands: **\`${client.commands.size}\`\n<:dot:1433712610758627371>  **Type ${prefix}dangermode enable  to enhance security!**`)
             .addField('`<> - Required | () - Optional`', '\u200B', false)
             .addField(
                     '__Modules__',
                     `
-                    <:antinuke:1317733398185508924> **AntiNuke**
-                    <:moderation:1317735997827448853> **Moderation**
-                    <:utility:1317735995222786048> **Utility**
-                    <:welcomer:1317735981360877658> **Welcomer**
-                    <:reactionroles:1317735978659741696> **Reaction Role**
-                    <:ticket:1317735976252084234> **Ticket**
-                    <:voice:1317735973542690836> **Voice**
-                    <:customrole:1317735971118387264> **Customrole**
-                    <:logging:1317735967729123348> **Logging**
-                    <:automod:1317735963761578054> **Automod**
-                    <:autoresponder:1317735961169231872> **Autorespond**
-                    <:giveway:1317735958606647349> **Giveaway**
-                    <:fun:1317735956601765921> **Fun**
+                    <:emoji_1764751777627:1445698481409753241> **AntiNuke**
+                    <:emoji_1764751781331:1445698496912162946> **Moderation**
+                    <:emoji_1762537505269:1436411150160891976> **Utility**
+                    <:emoji_1764751794423:1445698552184701009>  **Welcomer**
+                    <:emoji_1764751797507:1445698564914155520> **Reaction Role**
+                    <:emoji_1764751800598:1445698577803509932>  **Ticket**
+                    <:emoji_1764751803942:1445698592105824268> **Voice**
+                    <:emoji_1764752650666:1445702144597426176> **Customrole**
+                    <:emoji_1764752658249:1445702175387816038>**Logging**
+                    <:emoji_1764752660894:1445702187165679656> **Automod**
+                    <:emoji_1764752664115:1445702215175114794>**Autorespond**
+                    <:stolen_emoji:1445699901127135293> **Giveaway**
+                    <:stolen_emoji:1445696905010221178> **Fun**
                     `,
                     false
                 )
                 .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
                 .addField(
                     'Links',
-                    `[Support](https://discord.gg/hindustani) | [Invite Me](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot)`,
+                    `[Support](https://dsc.gg/rynxsupport) | [Invite Me](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot)`,
                     true
                 )
                 .setFooter({
-                    text: `Developed by 💞 By .rex4sure.`,
+                    text: `Developed by r3tract0 </>.`,
                     iconURL: 'https://images-ext-1.discordapp.net/external/R5FaJYZtxJKRpud5nY_i3Vg4NVAkQuANcTuLOt3hckg/%3Fsize%3D2048/https/cdn.discordapp.com/avatars/1237086498076098762/a66bb0f21cdc7c397f3ab3bc87445d98.webp?width=662&height=662'
                 });
                 
